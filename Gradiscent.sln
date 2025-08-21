@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradiscent.API", "Gradiscent.API\Gradiscent.API.csproj", "{46E7304C-182F-4B34-BE85-6EC032DF11D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradiscent.Application", "Gradiscent.Application\Gradiscent.Application.csproj", "{F447CBE4-46A3-4BB1-846A-5A02C4808320}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradiscent.Domain", "Gradiscent.Domain\Gradiscent.Domain.csproj", "{BCF47BF0-33B5-4F86-89E0-4DF342D32493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradiscent.Infrastructure", "Gradiscent.Infrastructure\Gradiscent.Infrastructure.csproj", "{EE62F31A-6FD8-4BDB-9700-1D2CDF44BCFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46E7304C-182F-4B34-BE85-6EC032DF11D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E7304C-182F-4B34-BE85-6EC032DF11D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E7304C-182F-4B34-BE85-6EC032DF11D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E7304C-182F-4B34-BE85-6EC032DF11D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F447CBE4-46A3-4BB1-846A-5A02C4808320}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F447CBE4-46A3-4BB1-846A-5A02C4808320}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F447CBE4-46A3-4BB1-846A-5A02C4808320}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F447CBE4-46A3-4BB1-846A-5A02C4808320}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCF47BF0-33B5-4F86-89E0-4DF342D32493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCF47BF0-33B5-4F86-89E0-4DF342D32493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCF47BF0-33B5-4F86-89E0-4DF342D32493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCF47BF0-33B5-4F86-89E0-4DF342D32493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE62F31A-6FD8-4BDB-9700-1D2CDF44BCFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE62F31A-6FD8-4BDB-9700-1D2CDF44BCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE62F31A-6FD8-4BDB-9700-1D2CDF44BCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE62F31A-6FD8-4BDB-9700-1D2CDF44BCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ED52B71-72A6-4B08-8F30-35680B0BB6A2}
+	EndGlobalSection
+EndGlobal
