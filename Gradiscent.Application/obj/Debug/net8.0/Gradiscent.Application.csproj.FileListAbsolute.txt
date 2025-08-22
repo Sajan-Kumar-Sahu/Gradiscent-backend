@@ -1,0 +1,15 @@
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\bin\Debug\net8.0\Gradiscent.Application.deps.json
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\bin\Debug\net8.0\Gradiscent.Application.runtimeconfig.json
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\bin\Debug\net8.0\Gradiscent.Application.dll
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\bin\Debug\net8.0\Gradiscent.Application.pdb
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.csproj.AssemblyReference.cache
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.AssemblyInfoInputs.cache
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.AssemblyInfo.cs
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.csproj.CoreCompileInputs.cache
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.sourcelink.json
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.dll
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\refint\Gradiscent.Application.dll
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.pdb
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\Gradiscent.Application.genruntimeconfig.cache
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Application\obj\Debug\net8.0\ref\Gradiscent.Application.dll

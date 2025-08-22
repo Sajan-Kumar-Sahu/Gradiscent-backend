@@ -1,0 +1,15 @@
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\bin\Debug\net8.0\Gradiscent.Domain.deps.json
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\bin\Debug\net8.0\Gradiscent.Domain.runtimeconfig.json
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\bin\Debug\net8.0\Gradiscent.Domain.dll
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\bin\Debug\net8.0\Gradiscent.Domain.pdb
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.csproj.AssemblyReference.cache
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.GeneratedMSBuildEditorConfig.editorconfig
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.AssemblyInfoInputs.cache
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.AssemblyInfo.cs
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.csproj.CoreCompileInputs.cache
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.sourcelink.json
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.dll
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\refint\Gradiscent.Domain.dll
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.pdb
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\Gradiscent.Domain.genruntimeconfig.cache
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Domain\obj\Debug\net8.0\ref\Gradiscent.Domain.dll

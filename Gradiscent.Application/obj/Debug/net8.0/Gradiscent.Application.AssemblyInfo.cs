@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gradiscent.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d0abd90d2df407ca247ed083813ad39eb7eb53b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gradiscent.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gradiscent.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
