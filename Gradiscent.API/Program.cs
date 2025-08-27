@@ -107,8 +107,18 @@ var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
 {
-    var services = scope.ServiceProvider;
-    await DbInitializer.SeedRolesAsync(services);
+    try
+    {
+        var services = scope.ServiceProvider;
+        var db = services.GetRequiredService<ApplicationDbContext>();
+
+        db.Database.Migrate();
+        await DbInitializer.SeedRolesAsync(services);
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"[ERROR] Migration/Seeding failed: {ex.Message}");
+    }
 }
 
 // Configure the HTTP request pipeline.
