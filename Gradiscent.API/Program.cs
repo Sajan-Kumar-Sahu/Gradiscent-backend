@@ -36,6 +36,9 @@ builder.Services.AddScoped<IExternalAuthService, ExternalAuthService>();
 builder.Services.AddDbContext<ApplicationDbContext>(options=>
     options.UseNpgsql(builder.Configuration.GetConnectionString("constr")));
 
+var testConn = builder.Configuration.GetConnectionString("constr");
+Console.WriteLine($"[DEBUG] Connection string from config: {testConn}");
+
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>(options =>
 {
     options.Password.RequireDigit = true;
