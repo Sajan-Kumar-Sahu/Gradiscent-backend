@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("748eab85-e8f2-46be-86be-7b5ee12568e5")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gradiscent.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8d0abd90d2df407ca247ed083813ad39eb7eb53b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ca49180c43cee0ac5d2fe82dd3068c55ba4df6cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gradiscent.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gradiscent.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

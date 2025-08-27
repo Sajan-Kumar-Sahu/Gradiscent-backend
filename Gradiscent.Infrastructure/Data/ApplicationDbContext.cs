@@ -18,6 +18,7 @@ namespace Gradiscent.Infrastructure.Data
         public DbSet<Subject> Subjects { get; set; }
         public DbSet<Topic> Topics { get; set; }
         public DbSet<TopicDayTag> TopicDayTags { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder builder)
@@ -167,6 +168,17 @@ namespace Gradiscent.Infrastructure.Data
                 entity.HasOne(td=> td.Topic)
                 .WithMany(t=> t.TopicDayTags)
                 .HasForeignKey(td=> td.TopicId)
+                .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            builder.Entity<RefreshToken>(entity =>
+            {
+                entity.Property(rt => rt.CreatedAt)
+                .HasDefaultValueSql("NOW()");
+
+                entity.HasOne(rt => rt.User)
+                .WithMany(u => u.RefreshTokens)
+                .HasForeignKey(rt => rt.UserId)
                 .OnDelete(DeleteBehavior.Cascade);
             });
         }

@@ -13,7 +13,7 @@ namespace Gradiscent.Domain.Models
         public string Name { get; set; }
 
         [Column("avatar_url", TypeName = "text")]
-        public string Avatar { get; set; }
+        public string? Avatar { get; set; }
 
         [Column("created_at", TypeName = "timestamptz")]
         public DateTime CreatedAt { get; set; }
@@ -31,5 +31,6 @@ namespace Gradiscent.Domain.Models
         public ICollection<StudyPlan> StudyPlans { get; set; } = new List<StudyPlan>();
         public ICollection<Subject> Subjects { get; set; } = new List<Subject>();
         public ICollection<Streak> Streaks { get; set; } = new List<Streak>();
+        public ICollection<RefreshToken> RefreshTokens { get; set; } = new List<RefreshToken>();
     }
 }

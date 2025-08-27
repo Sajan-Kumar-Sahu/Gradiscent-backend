@@ -2,7 +2,9 @@ E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.I
 E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\bin\Debug\net8.0\Gradiscent.Infrastructure.runtimeconfig.json
 E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\bin\Debug\net8.0\Gradiscent.Infrastructure.dll
 E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\bin\Debug\net8.0\Gradiscent.Infrastructure.pdb
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\bin\Debug\net8.0\Gradiscent.Application.dll
 E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\bin\Debug\net8.0\Gradiscent.Domain.dll
+E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\bin\Debug\net8.0\Gradiscent.Application.pdb
 E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\bin\Debug\net8.0\Gradiscent.Domain.pdb
 E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\obj\Debug\net8.0\Gradiscent.Infrastructure.csproj.AssemblyReference.cache
 E:\Study Materials\Codings\My Project\Project_Gradiscent\Gradiscent\Gradiscent.Infrastructure\obj\Debug\net8.0\Gradiscent.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
