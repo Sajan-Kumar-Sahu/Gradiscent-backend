@@ -1,0 +1,13 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".gitignore" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="Gradiscent.Api/Gradiscent.Api.csproj" />
+    <Project Path="Gradiscent.Application/Gradiscent.Application.csproj" />
+    <Project Path="Gradiscent.Domain/Gradiscent.Domain.csproj" />
+    <Project Path="Gradiscent.Infrastructure/Gradiscent.Infrastructure.csproj" />
+    <Project Path="Gradiscent.Persistence/Gradiscent.Persistence.csproj" Id="91869f0e-74b0-4277-9222-51cbab4fd075" />
+  </Folder>
+  <Folder Name="/tests/" />
+</Solution>
