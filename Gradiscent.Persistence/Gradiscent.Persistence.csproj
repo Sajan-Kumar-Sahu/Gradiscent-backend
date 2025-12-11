@@ -20,4 +20,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Gradiscent.Application\Gradiscent.Application.csproj" />
+    <ProjectReference Include="..\Gradiscent.Domain\Gradiscent.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
