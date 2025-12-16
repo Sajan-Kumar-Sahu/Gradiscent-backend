@@ -1,5 +1,4 @@
 using FluentValidation;
-using FluentValidation.AspNetCore;
 using Gradiscent.Application;
 using Gradiscent.Persistence;
 using Microsoft.EntityFrameworkCore;
@@ -13,12 +12,19 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 builder.Services.AddControllers();
 
-builder.Services.AddFluentValidationAutoValidation();
-builder.Services.AddFluentValidationClientsideAdapters();
+builder.Services.AddValidatorsFromAssemblyContaining<AssemblyReference>();
 
 builder.Services.AddValidatorsFromAssembly(Assembly.Load("Gradiscent.Application"));
 
-builder.Services.AddAutoMapper(typeof(AssemblyReference).Assembly);
+builder.Services.AddAutoMapper(cfg =>
+{
+    cfg.AddMaps(typeof(AssemblyReference).Assembly);
+});
+
+builder.Services.AddMediatR(cfg =>
+{
+    cfg.RegisterServicesFromAssembly(typeof(AssemblyReference).Assembly);
+});
 
 
 var app = builder.Build();
