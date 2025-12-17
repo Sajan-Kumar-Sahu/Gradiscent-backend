@@ -1,4 +1,5 @@
 using FluentValidation;
+using Gradiscent.Api.Middleware;
 using Gradiscent.Application;
 using Gradiscent.Persistence;
 using Microsoft.EntityFrameworkCore;
@@ -29,8 +30,9 @@ builder.Services.AddMediatR(cfg =>
 
 var app = builder.Build();
 
-
 app.UseHttpsRedirection();
+
+app.UseMiddleware<ValidationExceptionMiddleware>();
 
 app.UseAuthorization();
 
