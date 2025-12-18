@@ -26,6 +26,7 @@ namespace Gradiscent.Persistence
         public DbSet<RoadmapItem> RoadmapItems { get; set; }
         public DbSet<MergeMapping> MergeMappings { get; set; }
         public DbSet<Streak> Streaks { get; set; }
+        public DbSet<RefreshToken> RefreshTokens { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

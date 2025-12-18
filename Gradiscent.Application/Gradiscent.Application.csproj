@@ -11,10 +11,17 @@
     <PackageReference Include="FluentValidation" Version="12.1.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
     <PackageReference Include="MediatR" Version="14.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.15.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Gradiscent.Domain\Gradiscent.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Authentication\Commands\Register\" />
+    <Folder Include="Authentication\Queries\Login\" />
+    <Folder Include="Authentication\Queries\GoogleLogin\" />
   </ItemGroup>
 
 </Project>
